@@ -3,6 +3,8 @@ package me.Defracted;
 import java.util.Random;
 
 public class Jokes {
+    private static Random random = new Random();
+
     public static String[] DumbJokes = {
             "Выводы, сделанные из выводов — это квинтэссенция результата.",
             "Москвичи умеют определять точное время по длине пробок.",
@@ -15,7 +17,7 @@ public class Jokes {
     };
 
     public static String throwJoke(String[] array) {
-        int rnd = new Random().nextInt(array.length);
+        int rnd = random.nextInt(array.length);
         return array[rnd];
     }
 }

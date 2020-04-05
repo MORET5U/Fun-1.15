@@ -1,6 +1,6 @@
 name: Fun
 main: me.Defracted.Main
-version: "1.0.2"
+version: "1.0.3"
 author: Defracted7
 api-version: "1.15"
 
@@ -11,3 +11,7 @@ commands:
   fart:
     description: "Бзднуть люто..."
     permission: "fun.fart"
+
+  me:
+    description: "Выполняет РП действие с рандомным шансом успеха."
+    usage: "/me <действие>"

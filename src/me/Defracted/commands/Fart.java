@@ -1,6 +1,7 @@
 package me.Defracted.commands;
 
-import org.bukkit.ChatColor;
+import net.md_5.bungee.api.ChatColor;
+
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.World;
